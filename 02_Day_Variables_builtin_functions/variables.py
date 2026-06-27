@@ -19,7 +19,7 @@ person_info = {
 
 print('First name:', first_name)
 print('First name length:', len(first_name))
-print('Last name: ', last_name)
+print('Last name: ', last_name) 
 print('Last name length: ', len(last_name))
 print('Country: ', country)
 print('City: ', city)
