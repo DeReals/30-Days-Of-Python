@@ -10,3 +10,16 @@
 
 for i in range(1, 6):
     print(i, 1, i, i**2, i**3)
+
+# type check
+print(type("10") == type(10))  # should be false
+
+# decimal check
+#print(int('9.8') == 10)  # error: cannot down play from float to int
+
+# Write a script that prompts the user to enter hours and rate per hour. Calculate pay of the person?
+
+hr = int(input("Enter hours: "))
+rate = int(input("Rate per hour: "))
+
+print(f"Gross Income: {hr*rate}")
