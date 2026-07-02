@@ -20,3 +20,12 @@ formatedString2 = f"Hello my name is {name}"
 print(formatedString)
 
 print(formatedString2)
+
+# umpacking characters
+language = "pyth"
+a,b,c,d = language # the number of variables should match the size of the string
+
+print(a)
+print(b)
+print(c)
+print(d)
