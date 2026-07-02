@@ -7,5 +7,16 @@ here is the second line
 here is the third line"""
 print(lineTexts)
 
-# testing for branch
-# this is the test for day4bugFix; lets see if it works
+# lets look at formated strings
+# %s, %d, %f,  %.[# of decimal]f
+
+name = "David Ogunbanjo"
+bankAmount = 12.343545
+formatedString = "Helo my name is %s and I have $%.2f in my bank account"%(name, bankAmount)
+
+# or you can also use the the f-string method
+formatedString2 = f"Hello my name is {name}"
+
+print(formatedString)
+
+print(formatedString2)
